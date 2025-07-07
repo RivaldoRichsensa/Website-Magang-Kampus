@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="image/logoamikomputih.png">
+  <title>Formulir Pendaftaran Mahasiswa</title>
+  <link rel="stylesheet" type="text/css" href="bs/css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <!-- Sidebar -->
+    <div class="col-md-2 sidebar text-center">
+        <div class="sidebar d-flex flex-column">
+                <div class="logo">
+                  <img src="image/Program Studi D3 Teknik Informatika.png" alt="logoamikom">
+                </div>
+            <a href="main.html" class="nav-link">
+                <i class="bi bi-speedometer2"></i>
+                <span>Dashboard</span>
+            </a>
+            <hr>
+            <div class="section-title">Interface</div>
+            <a href="#" class="nav-link">
+                <i class="fas fa-clipboard-list"></i>
+                <span>Data Form</span>
+            </a>
+            <a href="logbook.html" class="nav-link">
+                <i class="fas fa-pen-square"></i>
+                <span>LogBook</span>
+            </a>
+            <hr>
+            <div class="section-title">Addons</div>
+            <a href="benefit.html" class="nav-link">
+              <i class="bi bi-trophy"></i>
+                <span>Benefit</span>
+            </a>
+            <a href="#" class="nav-link">
+                <i class="bi bi-bar-chart"></i>
+                <span>Charts</span>
+            </a>
+            <a href="#" class="nav-link">
+                <i class="bi bi-table"></i>
+                <span>Tables</span>
+            </a>
+        </div>
+      </div>
+      <!-- Main Content -->
+      <div class="col-md-10 ms-sm-auto px-md-2">
+        <nav class="navbar">
+          <div class="container-fluid">
+              <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search for..." aria-label="Search"/>
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+      <!-- profile -->
+      <div class="profile-container">
+        <button class="profile-button">
+          <span class="profile-name">Rivaldo Putra Richsensa</span>
+          <div class="avatar"><img src="image/face.jpeg" alt=""></div>
+        </button>
+        <div class="dropdown">
+          <a href="#profile"><i class="fas fa-user"></i> Profile</a>
+          <a href="#settings"><i class="fas fa-cog"></i> Settings</a>
+          <a href="#activity-log"><i class="fas fa-list"></i> Activity Log</a>
+          <hr>
+          <a href="login.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+        </div>
+      </div>
+  
+        </div>
+      </nav>
+      
+        <div class="header">
+          <h5>FORMULIR PENDAFTARAN MAHASISWA</h5>
+        </div>
+  
+        <form class="p-4">
+          <div class="row">
+            <div class="col-md-6">
+              <h6>Data Diri Mahasiswa</h6>
+              <div class="mb-2"><label>Nama Lengkap:</label><input type="text" class="form-control"></div>
+              <div class="mb-2"><label>NIM:</label><input type="text" class="form-control"></div>
+              <div class="mb-2"><label>Tempat Lahir:</label><input type="text" class="form-control"></div>
+              <div class="mb-2"><label>Tanggal Lahir:</label><input type="date" class="form-control"></div>
+              <div class="mb-2"><label>Agama:</label><input type="text" class="form-control"></div>
+              <div class="mb-2"><label>Kewarganegaraan:</label><input type="text" class="form-control"></div>
+              <div class="mb-2"><label>Jenis Kelamin:</label><input type="text" class="form-control"></div>
+              <div class="mb-2"><label>Alamat (sesuai KTP):</label><input type="text" class="form-control"></div>
+              <div class="mb-2"><label>Email Mahasiswa:</label><input type="email" class="form-control"></div>
+              <div class="mb-2"><label>Nomor Telepon:</label><input type="text" class="form-control"></div>
+            </div>
+  
+            <div class="col-md-6">
+              <h6>Data Pendidikan Terakhir</h6>
+              <div class="mb-2"><label>Nama SMA / SMK:</label><input type="text" class="form-control"></div>
+              <div class="mb-2"><label>Alamat Sekolah:</label><input type="text" class="form-control"></div>
+              <div class="mb-4"><label>Lulus Tahun:</label><input type="text" class="form-control"></div>
+  
+              <h6>Data Orang Tua / Wali Mahasiswa</h6>
+              <div class="mb-2"><label>Nama Ayah:</label><input type="text" class="form-control"></div>
+              <div class="mb-2"><label>Pekerjaan Ayah:</label><input type="text" class="form-control"></div>
+              <div class="mb-2"><label>Nama Ibu:</label><input type="text" class="form-control"></div>
+              <div class="mb-2"><label>Pekerjaan Ibu:</label><input type="text" class="form-control"></div>
+              <div class="mb-2"><label>Nomor Telepon Ayah/Ibu (aktif):</label><input type="text" class="form-control"></div>
+              <div class="mb-2"><label>Alamat Orang Tua:</label><input type="text" class="form-control"></div>
+            </div>
+          </div>
+          <div class="text-end mt-3">
+            <button type="submit" class="btn btn-primary">Daftar sekarang</button>
+            <button type="reset" class="btn btn-danger">Batal</button>
+          </div>
+        </form>
+    </div>
+
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+<!-- ICONS -->
+<script src="https://unpkg.com/feather-icons"></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</body>
+</html>
